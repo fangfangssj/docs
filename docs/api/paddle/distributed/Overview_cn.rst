@@ -165,6 +165,7 @@ RPC API
     " :ref:`shard_tensor <cn_api_paddle_distributed_shard_tensor>` ", "创建带有分布式切分信息的分布式 Tensor"
     " :ref:`dtensor_from_fn <cn_api_paddle_distributed_dtensor_from_fn>` ", "通过一个 paddle API 结合分布式属性 placements 创建一个带分布式属性的 Tensor"
     " :ref:`shard_layer <cn_api_paddle_distributed_shard_layer>` ", "按照指定方式将 Layer 中的参数转换为分布式 Tensor"
+    " :ref:`shard_dataloader <cn_api_paddle_distributed_shard_dataloader>` ", "将单机视角下的 dataloader 转换成分布式的 dataloader"
     " :ref:`reshard <cn_api_paddle_distributed_reshard>`", "对一个带有分布式信息的 Tensor 重新进行分布/切片"
     " :ref:`to_static <cn_api_paddle_distributed_to_static>`", "将带有分布式切分信息的动态图模型转换为静态图分布式模型"
     " :ref:`Strategy <cn_api_paddle_distributed_Strategy>`", "配置静态图分布式训练时所使用的并行策略和优化策略"
