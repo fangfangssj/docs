@@ -13,9 +13,7 @@ from typing import TypedDict
 
 PADDLE_DOCS_BASE_URL = "https://github.com/PaddlePaddle/docs/tree/develop/docs/guides/model_convert/convert_from_pytorch/"
 
-validate_whitelist = [
-    r"torch.pi.md",
-]
+validate_whitelist = []
 
 mapping_type_levels = [
     # type 0
