@@ -20,7 +20,7 @@ PyTorch 相比 Paddle 支持更多其他参数，具体如下：
 | input         | x            | 表示输入的 Tensor，仅参数名不一致。                                   |
 | dtype         | dtype        | 表示数据类型。               |
 | layout        | -            | 表示布局方式，Paddle 无此参数，一般对网络训练结果影响不大，可直接删除。                   |
-| device        | -            | 表示 Tensor 存放位置，一般对网络训练结果影响不大，可直接删除。                   |
+| device        | -            | 表示 Tensor 存放位置，Paddle 无此参数，一般对网络训练结果影响不大，可直接删除。                   |
 | requires_grad | stop_gradient            | 表示是否不阻断梯度传导，Paddle 无此参数，需要转写。 |
 | memory_format | -            | 表示内存格式， Paddle 无此参数，一般对网络训练结果影响不大，可直接删除。               |
 
