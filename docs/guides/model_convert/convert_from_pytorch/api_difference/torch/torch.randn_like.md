@@ -6,7 +6,7 @@
 torch.randn_like(input, *, dtype=None, layout=None, device=None, requires_grad=False, memory_format=torch.preserve_format)
 ```
 
-### [paddle.amin](https://www.paddlepaddle.org.cn/documentation/docs/zh/develop/api/paddle/randn_like_cn.html#randn_like)
+### [paddle.randn_like](https://www.paddlepaddle.org.cn/documentation/docs/zh/develop/api/paddle/randn_like_cn.html#randn_like)
 
 ```python
 paddle.randn_like(x, dtype=None, name=None)
