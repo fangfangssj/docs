@@ -1,4 +1,4 @@
-## [ torch 参数更多 ]torch.randn_like
+## [ torch 参数更多 ] torch.randn_like
 
 ### [torch.randn_like](https://pytorch.org/docs/stable/generated/torch.randn_like.html#torch.randn_like)
 
@@ -21,7 +21,7 @@ PyTorch 相比 Paddle 支持更多其他参数，具体如下：
 | dtype         | dtype        | 表示数据类型。               |
 | layout        | -            | 表示布局方式，Paddle 无此参数，一般对网络训练结果影响不大，可直接删除。                   |
 | device        | -            | 表示 Tensor 存放位置，Paddle 无此参数，一般对网络训练结果影响不大，可直接删除。                   |
-| requires_grad | stop_gradient            | 表示是否不阻断梯度传导，Paddle 无此参数，需要转写。 |
+| requires_grad | -            | 表示是否不阻断梯度传导，Paddle 无此参数，需要转写。 |
 | memory_format | -            | 表示内存格式， Paddle 无此参数，一般对网络训练结果影响不大，可直接删除。               |
 
 ### 转写示例
